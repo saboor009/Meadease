@@ -229,7 +229,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 840px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -300,7 +300,7 @@
   }
 
 
-  @media (max-width: 768px) {
+  @media (max-width: 840px) {
    
     .cards-container{
        
