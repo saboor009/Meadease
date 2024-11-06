@@ -127,7 +127,8 @@
     .reviews {
       display: flex;
       flex-direction: row; /* Stack reviews vertically */
-   
+      
+      width: 100%;
       justify-content: space-between;
       gap: 4px; /* Add spacing between items */
  
@@ -143,6 +144,8 @@
   }
   
     .testimonials-scroll {
+      width: 100%;
+     
       padding: 10px 0; /* Reduce padding for smaller screens */
       gap: 10px; /* Reduce the gap between cards */
     }
