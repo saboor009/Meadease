@@ -140,11 +140,13 @@ body {
 
 /* Mobile Search Bar */
 .search-bar-mobile {
+   
     display: none; /* Initially hidden */
 }
 
 /* Mobile Menu */
 .mobile-menu {
+   
     position: fixed;
     top: 0;
     right: -100%; /* Offscreen by default */
@@ -163,9 +165,7 @@ body {
 
 /* Close (Cross) Button */
 .close-btn {
-    position: absolute;
-    top: 10px;
-    right: 20px;
+   
     font-size: 24px;
     color: white;
     background: none;
@@ -189,9 +189,11 @@ body {
     
 /* Show mobile navigation */
 .mobile-nav {
+    width: 200px;
+
     justify-content: space-between;
     display: flex;
-    align-items: start;
+    align-items:center;
     
 }
 
@@ -211,7 +213,7 @@ body {
 /* Show mobile search bar */
 .search-bar-mobile {
    
-    width: 180px;
+    width: 100%;
     display: flex; /* Ensure it's shown on mobile */
     align-items: center;
   
@@ -226,8 +228,8 @@ body {
 
 .search-bar-mobile .search-icon {
     height: 24px;
-    width: 24px;
-    margin-right: 8px;
+  
+
 }
 
 .search-bar-mobile input {
@@ -282,7 +284,7 @@ body {
 
 /* Mobile Logo Style */
 .menu-logo {
-     margin-right: 110px;
+     margin-right: 70px;
     font-family: 'Intro Demo', sans-serif; 
     font-size: 24px; 
     color: #2D2D2D;
