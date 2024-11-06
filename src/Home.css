@@ -74,6 +74,36 @@
     font-weight: bold;
 }
 
+
+.primaryButton-mobile {
+    width: 340px;
+    height: 60px;
+    padding: 10px 20px;
+    background-color: #49ADCA;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.secondaryButton-mobile {
+    width: 340px;
+    height: 60px;
+    padding: 10px 20px;
+    background-color: #EAEAEA;
+    color: #49ADCA;
+    border: 2px solid #49ADCA;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
 .imageContainer {
     margin-top: 20px;
     position: relative;
@@ -91,6 +121,8 @@
     border-radius: 10px;
 
 }
+
+
 
 
 
@@ -199,7 +231,6 @@
 
 @media (max-width: 768px) {
     .container {
-        border: 1px solid red;
         display: flex;
         flex-direction: column;
     }
@@ -266,4 +297,71 @@
   
   .aboutarrow:hover {
     background-color: #49ADCA;
+  }
+
+
+  @media (max-width: 768px) {
+   
+    .cards-container{
+       
+        display: flex;
+        flex-direction: column;
+
+    }
+    .card{
+      
+        width: 300px;
+        height: 300px;
+        margin-bottom: 24px;
+    }
+    .services-container{
+      
+        display: flex;
+        flex-direction: column;
+    }
+    .services-grid{
+      
+        display: flex;
+        flex-direction: column;
+    }
+    .search-container{
+        display: none;
+        border: 1px solid red;
+    }
+
+
+    .main {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center;
+        text-align: center; /* Center text for a better mobile experience */
+      }
+    
+      .heading {
+        font-size: 28px; /* Reduce heading size for smaller screens */
+      }
+    
+      .subheading {
+        font-size: 16px; /* Adjust subheading size */
+        margin-bottom: 15px;
+      }
+    
+      .buttons {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 10px;
+      }
+    
+      .imageContainer {
+        order: 3; /* Ensure image comes after text but before buttons */
+        margin-top: 15px;
+      }
+    
+      .primaryButton,
+      .secondaryButton {
+        width: 100%; /* Full-width buttons for smaller screens */
+      }
+      .image {
+        background-image: none; /* Replace with your image path */
+ 
+    }
+    
   }
