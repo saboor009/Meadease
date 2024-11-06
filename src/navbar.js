@@ -50,16 +50,18 @@ const Navbar = () => {
 
             {/* Mobile Navigation */}
             <div className="mobile-nav">
-                <div className="menu-logo">MEDEASE</div>
+                <div className="logo">MEDEASE</div>
                 <div className="hamburger" onClick={toggleMenu} style={{ fontSize: '24px', fontWeight: 'bold' }}>
                     &#9776;
                 </div>
             </div>
                  {/* Mobile Search Bar */}
+               
                  <div className="search-bar-mobile">
                     <img src={searchIcon} alt="Search Icon" className="search-icon" />
                     <input type="text" placeholder="Search..." />
                 </div>
+                
 
             {/* Mobile Menu */}
             <div className={`mobile-menu ${isMobileMenuOpen ? 'open' : ''}`}>
