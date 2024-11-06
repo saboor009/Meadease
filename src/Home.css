@@ -315,18 +315,26 @@
         margin-bottom: 24px;
     }
     .services-container{
-      
+       
         display: flex;
         flex-direction: column;
+     
     }
     .services-grid{
-      
+       
         display: flex;
         flex-direction: column;
+        align-items: center;
+     
+    }
+    .service-card{
+      
+        height: 180px;
+        width: 80%;
     }
     .search-container{
         display: none;
-        border: 1px solid red;
+        
     }
 
 
