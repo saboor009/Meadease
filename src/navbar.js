@@ -50,7 +50,7 @@ const Navbar = () => {
 
             {/* Mobile Navigation */}
             <div className="mobile-nav">
-                <div className="logo">HEALTH HIVE</div>
+                <div className="menu-logo">MEDEASE</div>
                 <div className="hamburger" onClick={toggleMenu} style={{ fontSize: '24px', fontWeight: 'bold' }}>
                     &#9776;
                 </div>
@@ -65,7 +65,7 @@ const Navbar = () => {
             <div className={`mobile-menu ${isMobileMenuOpen ? 'open' : ''}`}>
                 {/* Logo and Close Button in Mobile Menu */}
                 <div className="mobile-menu-header">
-                    <div className="menu-logo">HEALTH HIVE</div>
+                    <div className="menu-logo">MEDEASE</div>
                     <div className="close-btn-div" >
                     
                         <img src={cross}  alt='cross' onClick={closeMenu} />
