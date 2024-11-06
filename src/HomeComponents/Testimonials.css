@@ -108,7 +108,7 @@
     font-weight: bold;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 840px) {
     .header h1 {
       font-size: 22px; /* Slightly smaller heading for smaller screens */
       margin-top: 8px;
