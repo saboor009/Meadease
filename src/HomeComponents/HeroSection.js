@@ -3,7 +3,7 @@ import doctor from "../icons/homedoctor.png";
 import doctor2 from "../icons/doctor2.png";
 
 const HeroSection = () => {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 840);
 
   useEffect(() => {
     const handleResize = () => {
