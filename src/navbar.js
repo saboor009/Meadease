@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react';
+import React, {  useState } from 'react';
 import './Navbar.css';
 import searchIcon from './icons/search.svg'; // Path to search icon
 import userIcon from './icons/usericon.png'; // Path to user icon
