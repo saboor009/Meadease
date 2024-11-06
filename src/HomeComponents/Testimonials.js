@@ -63,7 +63,7 @@ const Testimonials = () => {
           <span style={{ color: "#49ADCA" }}>Testimonials</span>
           <h1>What our Customers say</h1>
           <div className="reviews">
-            <div style={{justifyContent:'space-between',display:'flex',alignItems:'center'}}>
+            <div className="reviewunder">
             <span className="stars">
               {Array.from({ length: 5 }).map((_, index) => (
                 <img key={index} src={star} alt="star" className="star-icon" />

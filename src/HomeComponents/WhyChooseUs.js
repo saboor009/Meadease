@@ -3,7 +3,7 @@ import ailogo from "../icons/ailogo.png";
 import homesample from "../icons/homesample.svg";
 import doctorkit from "../icons/doctorkit.png";
 import uparrow from "../icons/arrow-up-left.svg";
-
+import "../HomeComponents/WhyChooseUs.css"
 
 const whyChooseUs = [
   {

@@ -4,7 +4,7 @@ import finddoctor from "../icons/finddoctor.svg";
 import lab from "../icons/lab.svg";
 import medicence from "../icons/medicence.svg";
 import uparrow from "../icons/arrow-up-left.svg";
-
+import "../HomeComponents/ServicesSection.css";
 
 const services = [
   {
